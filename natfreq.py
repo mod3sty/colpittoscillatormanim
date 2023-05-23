@@ -3,7 +3,8 @@ from manim import *
 class natfreq(Scene):
     def construct(self):
         # eqs
-        kvl = MathTex('L', '\\frac{dI}{dt} +', '{Q', '\\over', 'C}', ' = 0').scale(0.6)
+        kvl = MathTex('V_{\\text{inductor}} + V_{\\text{capacitor}} = 0').scale(0.6)
+        eq1 = MathTex('L', '\\frac{dI}{dt} +', '{Q', '\\over', 'C}', ' = 0').scale(0.6)
         eq2 = MathTex('L', '\\frac{dI}{dt} = -', '{Q', '\\over', 'C}').scale(0.6)
         eq3 = MathTex('L', '\\frac{d^2Q}{dt} = -', '{Q', '\\over', 'C}').scale(0.6)
         eq4 = MathTex('L', '\\ddot{', 'Q', '}= -', '{Q', '\\over', 'C}').scale(0.6)
@@ -13,7 +14,8 @@ class natfreq(Scene):
 
         # Positioning
         kvl.to_edge(UP)
-        eq2.next_to(kvl, DOWN, buff=0.25)
+        eq1.next_to(kvl, DOWN, buff=0.25)
+        eq2.next_to(eq1, DOWN, buff=0.25)
         eq3.next_to(eq2, DOWN, buff=0.25)
         eq4.next_to(eq3, DOWN, buff=0.25)
         eq5.next_to(eq4, DOWN, buff=0.25)
@@ -22,7 +24,7 @@ class natfreq(Scene):
 
         # Animation
         prev = kvl
-        eq_list = [kvl, eq2, eq3, eq4, eq5, eq6, eq7]
+        eq_list = [kvl, eq1, eq2, eq3, eq4, eq5, eq6, eq7]
         color_map = {
                 'Q': GREEN,
                 'C': YELLOW,

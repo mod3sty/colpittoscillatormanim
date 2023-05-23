@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/marco/dev/oscillator/media/videos/barkhausen/1080p60/partial_movie_files/barkhausen/2902699114_2739180741_223132457.mp4'
+file 'file:/home/marco/dev/oscillator/media/videos/barkhausen/1080p60/partial_movie_files/barkhausen/3931933789_125286499_3876988431.mp4'
+file 'file:/home/marco/dev/oscillator/media/videos/barkhausen/1080p60/partial_movie_files/barkhausen/3931933789_966854599_2400504171.mp4'
+file 'file:/home/marco/dev/oscillator/media/videos/barkhausen/1080p60/partial_movie_files/barkhausen/3931933789_1076466279_1790927531.mp4'
+file 'file:/home/marco/dev/oscillator/media/videos/barkhausen/1080p60/partial_movie_files/barkhausen/3931933789_1843818318_166310869.mp4'
+file 'file:/home/marco/dev/oscillator/media/videos/barkhausen/1080p60/partial_movie_files/barkhausen/3931933789_125286499_1185925068.mp4'
+file 'file:/home/marco/dev/oscillator/media/videos/barkhausen/1080p60/partial_movie_files/barkhausen/3931933789_3158215096_1243347845.mp4'
+file 'file:/home/marco/dev/oscillator/media/videos/barkhausen/1080p60/partial_movie_files/barkhausen/3931933789_2358420384_471857507.mp4'
